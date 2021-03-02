@@ -1,0 +1,267 @@
+.container_admin {
+	height: 80%;
+	width: 30%;
+	border: 1px solid black;
+	margin: 70px auto 0 auto;
+	background-color: #222222;
+	color: white;
+	display: block;
+	box-shadow:0 10px 20px #000;
+	min-width: 540px;
+	min-height: 693px;
+}
+
+.container_product {
+	width: 100%;
+	height: auto;
+	min-height: 910px;
+	background-color: #1B1B1B;
+	color: white;
+}
+
+.container_user {
+	width: 80%;
+	height: auto;
+	margin: 50px 90px 50px auto;
+  min-height: 590px;
+	display: flex;
+	flex-direction: row;
+	background-color: #1B1B1B;
+	padding: 20px;
+	color: white;
+	min-width: 700px;
+}
+
+.column {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.contents {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+}
+
+.container_index {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+.container_content {
+	width: 84%;
+	height: auto;
+	min-height: 500px;
+	display: flex;
+	flex-direction: row;
+	background-color: #222222;
+	margin: 50px 50px 50px 230px ;
+}
+
+.user_account {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	height: auto;
+	margin: 0 20px 0 0;
+	background-color: #222222;
+}
+
+.user_online {
+	width: 30%;
+	height: auto;
+	background-color: #222222;
+	min-height: 590px;
+}
+
+input.picture {
+  width: 100%;
+	height: 100%;
+	padding: 0;
+  border: 0;
+	outline-width: 0;
+}
+
+h2.admin
+{
+	text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+  margin-bottom: 30px;
+}
+
+div.alert {
+  text-align: center;
+  width: 30%;
+  height: 50px;
+  margin: auto;
+  background-color: #4af436;
+  color: white;
+  font-size: 20px;
+  opacity: 1;
+}
+
+span.closebtn {
+  float: right;
+  padding: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+.alert p {
+  padding-top: 10px;
+}
+
+.alert p.remove {
+  padding-top: 10px;
+	margin: 0;
+}
+
+tr {
+	width: auto;
+	height: 150px;
+  border-top: 1px solid #ddd;
+	min-width: 400px;
+}
+
+td {
+	padding: 15px 15px 0 15px;
+	vertical-align: top;
+  text-align: left;
+	font-size: 25px;
+	width: auto;
+	font-family: sans-serif;
+}
+
+.td_photo {
+	width: 1px;
+	height: 140Px;
+	padding: 15px 0 15px 15px;
+}
+
+.td_price {
+	font-family: monospace;
+}
+
+.td_title {
+	font-family: sans-serif;
+	width: 400px;
+}
+
+.td_qty {
+	font-family: sans-serif;
+}
+
+.delete {
+  background-image: url("/img/icone-logo/delete.png");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 15px;
+  overflow: hidden;
+  width: 15px;
+  padding: 0;
+}
+
+#mini {
+	width: 150px;
+	height: 165px;
+}
+
+table {
+	margin: 0 20px 0 20px;
+	width: 95%;
+  border-collapse: collapse;
+	min-width: 200px;
+}
+
+.table {
+	margin: 0 170px 0 170px;
+	width: 95%;
+  border-collapse: collapse;
+	min-width: 200px;
+	max-width: 1400px;
+}
+
+.caption {
+	height: 50px;
+	text-align: center;
+	font-size: 40px;
+	margin: 0 0 30px 0;
+	padding-top: 30px;
+	font-family: monospace;
+}
+
+form.nothing {
+  padding: 0;
+  width: 0;
+  height: 0;
+}
+
+#nothing {
+	width: 0;
+  height: 0;
+}
+
+.refresh {
+	background-color: rgb(31, 40, 99);
+  border: none;
+  text-decoration: none;
+  color: black;
+	font-size: 25px;
+	width: 90%;
+	bottom: 0px;
+	border-radius: 20px;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+input:focus {
+   outline:  none;
+}
+
+p.welcome {
+	text-align: center;
+	font-size: 40px;
+	height: 50px;
+	margin: 50px 0 0 0;
+	width: 100%;
+}
+
+p.text {
+	margin: 0 0 50px 0;
+	width: 100%;
+	text-align: center;
+}
+
+.number_order {
+	width: 48%;
+	height: auto;
+	text-align: center;
+	min-height: 200px;
+	border: 1px solid white;
+	margin-right: 20px;
+}
+
+span.span {
+	font-size: 30px;
+
+}
+
+.bouton.refresh {
+	width: 100%;
+}
+
+.big_order {
+	width: 50%;
+	height: auto;
+	min-height: 200px;
+	text-align: center;
+	border: 1px solid white;
+}

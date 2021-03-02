@@ -1,0 +1,148 @@
+div.container_catalog {
+  width: 100%;
+  height: auto;
+  min-height: 910px;
+	background-color: #1B1B1B;
+  margin-top: 0;
+  color: #999999;
+  flex-wrap: wrap;
+}
+
+div.titre_catalog {
+	padding-top: 10px;
+  font-size: 50px;
+	font-family: monospace;
+  text-align: center;
+  color: #F0F0F0;
+  width: 40%;
+  height: 80px;
+  margin: 0 0 50px 580px;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+div.catalog {
+  width: 100%;
+  height: auto;
+}
+
+div.pict {
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+div.ligne {
+	display: flex;
+	flex-direction: row;
+  position:relative;
+  flex-wrap: wrap;
+  width:100%;
+  min-height:1px;
+}
+
+.img_catalog {
+	width: 100%;
+	height: 400px;
+}
+
+article {
+	width: 303px;
+	height: 500px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+article:hover {
+  border: 1px solid white;
+  box-shadow: 10px 5px 5px #DCDCDC;
+}
+
+.p_des {
+	font-size: 20px;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+.p_price {
+	margin-top: 15px;
+	font-size: 20px;
+	font-family: monospace;
+}
+
+.button_catalog {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 1px solid black;
+  transition: .50s;
+  position: absolute;
+	margin-top: 350px;
+	margin-left: 10px;
+  font-size: 5px;
+}
+
+.button_catalog:hover{
+  width: 170px;
+  transition: .20s;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#cookie_container {
+  position:absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 18%;
+  height: 13%;
+  text-align: center;
+  padding: 15px;
+  margin:0;
+  background-color: rgb(246, 246, 246);
+  border-color: rgb(85, 85, 85);
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  flex-direction: column;
+  max-width: 30%;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+#cookie_container:hover {
+  opacity: 0.9;
+}
+
+#txt_cookie {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+#button_cookie {
+  position: absolute;
+  bottom: 5px;
+  right: 4%;
+  width: 90%;
+  height: 20%;
+  border: 1px solid rgb(85, 85, 85);
+  border-radius: 4px;
+  padding: 0 8px;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  background-color: rgb(85, 85, 85);
+}
+
+#button_cookie:hover {
+  opacity: 0.7;
+}
