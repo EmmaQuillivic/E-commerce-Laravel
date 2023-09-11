@@ -2,6 +2,14 @@
 
 Creation of a bucket hat sales website in Laravel 8.12.
 
+## Summary
+
+- [What's Inside?](#whats-inside): Discover the core features of this project.
+- [Project Structure](#project-structure): Explore the organization of the project's files and directories.
+- [Prerequisites](#prerequisites): Check out the requirements you need to meet before setting up the project.
+- [Installation](#installation): Follow step-by-step instructions to set up the project on your local machine.
+- [How to Use](#how-to-use): Learn how to navigate and use the e-commerce website.
+
 ## What's Inside?
 
 Here's what you'll find in this project:
